@@ -3,7 +3,7 @@
 ## Operation
 
 - Operation ID: `repo-rename-2026-07-29-what-to-eat-today`
-- Status: `prepared`
+- Status: `renamed; deployment verification pending`
 - Repository ID: `1300417121`
 - Default branch: `main`
 - Visibility: `public`
@@ -31,6 +31,15 @@
 3. Update `origin` to the new repository URL.
 4. Append the actual rename time, commits, and verification evidence to this file.
 5. Push the completion record to trigger a Pages deployment and verify the new URL.
+
+## Execution record
+
+- Preparation commit: `7fb955a`
+- Renamed at: `2026-07-29T07:19:59+08:00` (`2026-07-28T23:19:59Z`)
+- Rename API result: `EasonXavier/what-to-eat-today`
+- Repository ID after rename: `1300417121`
+- Local origin after rename: `https://github.com/EasonXavier/what-to-eat-today.git`
+- Completion commit: recorded by the commit containing this execution update.
 
 ## Rollback
 
