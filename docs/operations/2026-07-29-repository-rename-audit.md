@@ -3,7 +3,7 @@
 ## Operation
 
 - Operation ID: `repo-rename-2026-07-29-what-to-eat-today`
-- Status: `renamed; deployment verification pending`
+- Status: `completed`
 - Repository ID: `1300417121`
 - Default branch: `main`
 - Visibility: `public`
@@ -39,7 +39,16 @@
 - Rename API result: `EasonXavier/what-to-eat-today`
 - Repository ID after rename: `1300417121`
 - Local origin after rename: `https://github.com/EasonXavier/what-to-eat-today.git`
-- Completion commit: recorded by the commit containing this execution update.
+- Rename-record commit: `4ef978a`
+
+## Verification
+
+- Verified at: `2026-07-29T07:21:09+08:00` (`2026-07-28T23:21:09Z`)
+- Repository metadata: `EasonXavier/what-to-eat-today`, ID `1300417121`, default branch `main`
+- New Pages URL: `https://easonx.me/what-to-eat-today/`
+- HTTP result: `200`
+- Content marker: `<title>今天吃什么</title>`
+- Result: `PASS`
 
 ## Rollback
 
